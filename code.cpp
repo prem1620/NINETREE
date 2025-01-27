@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 int nineTree(long long N) {
+    //this function takes a long long N as input and returns the integer value of its square root.
     bool negative = false;
     if(N < 0) {
         negative = true;
@@ -37,5 +38,5 @@ int nineTree(long long N) {
     return squareRoot;
 }
 int main() {
-    cout<<nineTree(-1234567893);
+
 }
